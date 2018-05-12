@@ -30,3 +30,32 @@
 *.exe
 *.out
 *.app
+
+# Eclipse files
+.cproject
+.project
+
+# Automake files
+*Makefile.in
+aclocal.m4
+autom4te.cache/
+compile
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+m4/libtool.m4
+m4/ltoptions.m4
+m4/ltsugar.m4
+m4/ltversion.m4
+m4/lt~obsolete.m4
+missing
+
+# Build files
+build/Makefile
+build/config.log
+build/config.status
+build/libtool
+build/src/

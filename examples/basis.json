@@ -1,0 +1,11 @@
+{
+    "website" : "http://www.basisfunctional.com",
+    "dynamicFiles" : ["index","template", "pointers", "pilot"],
+    "fileOrder" : ["header1.txt", "header2.txt", "*.body", "footer.txt"],
+    "additionalFiles" : ["layout.css", "images"],
+    "fileExtension" : "html",
+    "inputDirectory" : "basis",
+    "outputDirectory" : "/opt/www/basis",
+    "strict" : false,
+    "verbose" : true
+}

@@ -1,0 +1,17 @@
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<img src="images/header.png" alt="Basis" class="logo" />
+</div>
+<div class="menu-wrap">
+<nav class="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="pointers.html">Basis Pointers</a></li>
+<li><a href="template.html">HTML Template</a></li>
+<li><a href="pilot.html">Pilot Light</a></li>
+</ul>
+</nav>
+</div>
+<div id="content">

@@ -1,0 +1,39 @@
+<h2>HTML Templater</h2>
+<p>
+A non-graphical, open source website templater. It was created because I couldn't find a simple, free tool that could create webpages with a templated look and feel.
+</p>
+<p>
+The source for HTML is available on <a href='https://github.com/basisgroup/htmltemplate'>github</a>. It is written in c++ and licensed under MIT.
+</p>
+<p>
+<code>git clone https://github.com/basisgroup/htmltemplate.git</code>
+</p>
+<p>
+The configuration files are JSON based. Here is an example:
+<pre><code>
+{
+    "website" : "http://www.basisfunctional.com",
+    "fileOrder" : ["header1.txt", "header2.txt", "*.body", "footer.txt"],
+    "additionalFiles" : ["layout.css", "images"],
+    "fileExtension" : "html",
+    "inputDirectory" : "",
+    "outputDirectory" : "/opt/www/basis",
+    "strict" : false,
+    "verbose" : false
+}
+</code></pre>
+</p>
+<p>
+You can see that some of the configuration fields are self explanatory, some are not. Here is a description of the above configuration:
+</p>
+<p>
+<li><b>website</b> <i>not required</i> - Target website name</li>
+<li><b>dynamicFiles</b> <i>required</i> - A list of the files that will be created</li>
+<li><b>fileOrder</b> <i>required</i> - An ordered list of input files. Entries that begin with the wildcard '*' field are dynamic files. The wildcard will be replaced with all the entries in the <i>dynamicFiles</i> list</li>
+<li><b>additionalFiles</b> <i>not required</i> - Additional files that are to be copied directly to <i>outputDirectory</i>. Note: directories will be copied recursively</li>
+<li><b>fileExtension</b> <i>required</i> - File extension for output files</li>
+<li><b>inputDirectory</b> <i>not required</i> - Location of input files. If omitted the current working directory will be used</li>
+<li><b>outputDirectory</b> <i>not required</i> - Destination of output files. If omitted the current working directory will be used</li>
+<li><b>strict</b> <i>not required</i> - Boolean that sets where or not all <i>dynamicFiles</i> need to exist. In this example, the program would exit if strict was set to <i>true</i> and 'owlhours.body' didn't exist; however, if strict was set to <i>false</i> and 'owlhours.body' didn't exist it would simply move onto the next file</li>
+<li><b>verbose</b> <i>not required</i> - Boolean to enable verbose output</li>
+</p>
