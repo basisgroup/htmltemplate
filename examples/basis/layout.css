@@ -45,7 +45,7 @@
 
 .menu li:hover > a, .menu .current-item > a {
   text-decoration:none;
-  color: #a45927;
+  color: #583;
   background: #000;
   display: block;
 }
