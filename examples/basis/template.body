@@ -1,9 +1,9 @@
-<h2>HTML Templater</h2>
+<h1>HTML Templater</h1>
 <p>
 A non-graphical, open source website templater. I created it because I couldn't find a simple, free tool that could create webpages with a templated look and feel.
 </p>
 <p>
-It is written in c++ and it carries a permissive MIT License. Currently, there is only a Linux version. However, I am intending on supporting other Operating Systems (if there is any demand).
+It is written in C++ and it carries a permissive MIT License. Currently, there is only a Linux version. However, I am intending on supporting other Operating Systems (if there is any demand).
 </p>
 <p>
 The source is freely available on <a href='https://github.com/basisgroup/htmltemplate'>github</a>. You can find documentation on how to build the application there. Here is a link to clone:
@@ -42,5 +42,5 @@ Here is a brief of the above configuration:
 <li><b>verbose</b> <i>not required</i> - Boolean to enable verbose output</li>
 </p>
 <p>
-If you have any questions direct them to <a href="mailto:schnet@gmail.com?Subject=HTML%20Templater" target="_top">schnet@gmail.com</a>. Thanks for reading
+If you have any questions direct them to <a href="mailto:contact@basisfunctional.com?Subject=HTML%20Templater" target="_top">contact@basisfunctional.com</a>. Thanks for reading
 </p>

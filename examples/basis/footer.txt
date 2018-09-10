@@ -1,5 +1,5 @@
 </div>
 </div>
-<div id="footer">&copy; 2018 Basis | Oakton, VA | <a href="mailto:schnet@gmail.com?Subject=Web%20Contact">schnet@gmail.com</a></div>
+<div id="footer">&copy; 2018 Basis Functional Group | Oakton, VA | <a href="mailto:contact@basisfunctional.com?Subject=Web%20Contact">contact@basisfunctional.com</a></div>
 </body>
 </html>
